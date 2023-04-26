@@ -20,6 +20,10 @@ const calSchema = new Schema({
     },
     exp: {
         type: Number
+    },
+    user_id: {
+        type: String,
+        required: true
     }
 }, { timestamps: true })
 
